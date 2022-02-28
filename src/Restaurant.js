@@ -2,7 +2,13 @@ import React from 'react'
 
 function Restaurant() {
   return (
-    <div>Restaurant</div>
+    <div className="restaurantDiv">
+    <div className="restaurant">
+      <div className="logo">
+        
+      </div>
+    </div>
+    </div>
   )
 }
 
