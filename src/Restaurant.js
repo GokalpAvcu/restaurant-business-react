@@ -66,7 +66,11 @@ export default function Restaurant() {
           </div>
 
           <div className="restaurantDesc">{restaurant.description}</div>
-          <div className="restaurantDesc">{restaurant.description}</div>
+          <div className="restaurantDesc">{restaurant.address}</div>
+        
+        <div className='restaurantDays'>
+          {Object.keys(restaurant.hours).map(day => <p key={day} style={{color: restaurant.hours[day].is_closed ? "tomato" : "green" }}  className='day'>{day} </p>)}
+        </div>
 
         </div>
       
