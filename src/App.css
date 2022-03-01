@@ -15,3 +15,40 @@ body {
   height: 100%;
   margin: 0 auto;
 }
+
+.restaurantDiv {
+  padding: 15px;
+
+}
+
+.restaurant{
+  display: flex;
+
+}
+
+.logo {
+width: 100%;
+height: 100%;
+}
+
+img{
+  width: 200px;
+  height: 100%;
+}
+
+.restaurantInfo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+
+}
+
+.restaurantNameType {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.restaurantName {
+
+}
